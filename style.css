@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+
+:root { --backgroundcolor:#D1D5DB;
+    --primarycolor:#1e75e6;
+    --secondarycolor:#f6fafa;
+
+
+ 
+}
+body{
+    background-color: var(--backgroundcolor);
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--primarycolor);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .navigation .nav-brand {
+      background-color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 2rem,;
+
+    text-align: center;
+
+  }
+  .navigation .link {
+    color:var(--secondarycolor);
+    text-decoration: none;
+    align-items: center;
+  }
+  
+.navigation .link-active {
+    font-weight: bold;
+
+  }
+.input-box{
+    color: var(--primarycolor);
+    text-decoration: bold ;
+    border-color: #1D4ED8;
+    text-align: center;
+    
+}
+.button{
+     background-color: var(--secondarycolor);
+    border-color: var(--primarycolor);
+    border-radius: 1rem;
+    padding: 1rem;
+     
+}
+.side-input{
+    background-color: var(--secondarycolor);
+    border-radius: 1rem;
+    border-color: var(--primarycolor);
+    align-items: center;
+}
+
+.button-check{
+    background-color: var(--secondarycolor);
+    border-color: var(--primarycolor);
+    border-radius: 4rem;
+    padding: 0.5rem;
+    
+     
+}
+.angle-input{
+    background-color: var(--secondarycolor);
+    border-radius: 1rem;
+    border-color: var(--primarycolor);
+    align-items: center;
+}
+
+.list-item-inline{
+    text-decoration: none;
+    text-align: justify;
+
+}
