@@ -36,7 +36,8 @@ if (quizForm) {
     const formResults = new FormData(quizForm)
     let score = 0,
       index = 0
-    for (let value of formResults.values()) {
+    let values = formResults.values()
+    for (let value of values) {
       if (value === correctAnswers[index]) {
         score = score + 1
       }
